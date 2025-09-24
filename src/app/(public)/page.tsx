@@ -10,7 +10,7 @@ export default async function HomePage() {
     }
   })
   const {data:blogs} = await res.json()
-  console.log(blogs)
+  // console.log(blogs)
   return (
     <div>
       <Hero />
