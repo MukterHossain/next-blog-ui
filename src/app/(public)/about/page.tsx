@@ -1,3 +1,11 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About" ,
+  description: "A simple blog built with Next.js, Tailwind CSS, and shadcn/ui.",
+};
+
+
 const AboutPage = () => {
   return (
     <div className="py-30 px-4 max-w-7xl mx-auto">
